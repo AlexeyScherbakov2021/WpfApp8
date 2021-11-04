@@ -7,8 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Ellipse Fill="#FFFF6E4E" HorizontalAlignment="Left" Height="274" Margin="106,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="297"/>
-        <Rectangle Fill="#FF1414E4" HorizontalAlignment="Left" Height="263" Margin="455,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="281"/>
+        <Ellipse Fill="#FFFF6E4E" HorizontalAlignment="Left" Height="274" Margin="82,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="297"/>
+        <Rectangle HorizontalAlignment="Left" Height="263" Margin="232,92,0,0" Stroke="Black" VerticalAlignment="Top" Width="281">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FF1414E4"/>
+            </Rectangle.Fill>
+            <Rectangle.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="White" Offset="0.653"/>
+                    <GradientStop Color="#00000000" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.OpacityMask>
+        </Rectangle>
 
     </Grid>
 </Window>
