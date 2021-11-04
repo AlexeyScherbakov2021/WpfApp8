@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="274" Margin="106,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="297"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="263" Margin="455,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="281"/>
+        <Ellipse Fill="#FFFF6E4E" HorizontalAlignment="Left" Height="274" Margin="106,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="297"/>
+        <Rectangle Fill="#FF1414E4" HorizontalAlignment="Left" Height="263" Margin="455,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="281"/>
 
     </Grid>
 </Window>
