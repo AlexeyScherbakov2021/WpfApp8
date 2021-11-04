@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="94" Margin="106,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="246"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="146" Margin="167,216,0,0" Stroke="Black" VerticalAlignment="Top" Width="528"/>
 
     </Grid>
 </Window>
