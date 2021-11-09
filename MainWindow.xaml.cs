@@ -20,7 +20,7 @@ namespace WpfApp8
     /// </summary>
     public partial class MainWindow : Window
     {
-		pubilc string s;
+		pubilc string string1;
 		
         public MainWindow()
         {
