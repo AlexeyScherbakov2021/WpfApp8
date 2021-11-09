@@ -20,9 +20,13 @@ namespace WpfApp8
     /// </summary>
     public partial class MainWindow : Window
     {
+		pubilc string s;
+		
         public MainWindow()
         {
             InitializeComponent();
+			
+			
         }
     }
 }
